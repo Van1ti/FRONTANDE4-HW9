@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveContact</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h3>Add / Edit Contacts</h3>
+  <form id="contactForm">
+    <input type="text" id="firstName" placeholder="Имя" required>
+    <input type="text" id="lastName" placeholder="Фамилия" required>
+    <input type="tel" id="phone" placeholder="Телефон" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit" id="submitBtn">Save</button>
+  </form>
+
+  <h3>List of Contacts</h3>
+  <div id="contactsList"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
